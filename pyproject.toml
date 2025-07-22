@@ -1,0 +1,14 @@
+[project]
+name = "repl-nix-workspace"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "discord-py>=2.5.2",
+    "flask>=3.1.1",
+    "groq>=0.30.0",
+    "matplotlib>=3.10.3",
+    "pandas>=2.3.1",
+    "requests>=2.32.4",
+    "yfinance>=0.2.65",
+]

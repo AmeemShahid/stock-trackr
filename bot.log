@@ -1,0 +1,202 @@
+2025-07-21 17:46:18,944 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-21 17:46:19,028 - __main__ - INFO - Starting Stock Bot...
+2025-07-21 17:46:19,031 - web_server - INFO - Starting web server on 0.0.0.0:5000
+2025-07-21 17:46:19,032 - discord.client - INFO - logging in using static token
+2025-07-21 17:46:19,037 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.63:5000
+2025-07-21 17:46:19,038 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-21 17:46:19,649 - __main__ - INFO - Synced 6 command(s)
+2025-07-21 17:46:19,650 - __main__ - INFO - Bot setup completed
+2025-07-21 17:46:20,000 - __main__ - ERROR - Bot crashed: Shard ID None is requesting privileged intents that have not been explicitly enabled in the developer portal. It is recommended to go to https://discord.com/developers/applications/ and explicitly enable the privileged intents within your application's page. If this is not possible, then consider disabling the privileged intents instead.
+2025-07-21 17:47:22,436 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-21 17:47:22,465 - __main__ - INFO - Starting Stock Bot...
+2025-07-21 17:47:22,467 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-07-21 17:47:22,471 - web_server - INFO - Starting web server on 0.0.0.0:5000
+2025-07-21 17:47:22,471 - discord.client - INFO - logging in using static token
+2025-07-21 17:47:22,482 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.63:5000
+2025-07-21 17:47:22,482 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-21 17:47:23,244 - __main__ - INFO - Synced 6 command(s)
+2025-07-21 17:47:23,245 - __main__ - INFO - Bot setup completed
+2025-07-21 17:47:23,893 - werkzeug - INFO - 172.31.128.63 - - [21/Jul/2025 17:47:23] "GET / HTTP/1.1" 200 -
+2025-07-21 17:47:24,088 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 415d9e40e212e106e030ed7ce63b4053).
+2025-07-21 17:47:26,092 - __main__ - INFO - Stock Trackr#0840 has connected to Discord!
+2025-07-21 17:47:26,093 - __main__ - INFO - Bot is in 1 guilds
+2025-07-21 17:47:30,761 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 17:47:30] "GET / HTTP/1.1" 200 -
+2025-07-21 17:50:36,984 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-21 17:50:36,985 - ai_advisor - ERROR - Error getting Groq response: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-21 17:50:36,990 - ai_advisor - ERROR - Error getting AI advice for TSLA: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-07-21 17:51:53,984 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-21 17:51:54,054 - __main__ - INFO - Starting Stock Bot...
+2025-07-21 17:51:54,058 - web_server - INFO - Starting web server on 0.0.0.0:5000
+2025-07-21 17:51:54,060 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-07-21 17:51:54,060 - discord.client - INFO - logging in using static token
+2025-07-21 17:51:54,067 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.63:5000
+2025-07-21 17:51:54,067 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-21 17:51:54,581 - __main__ - INFO - Synced 6 command(s)
+2025-07-21 17:51:54,581 - __main__ - INFO - Bot setup completed
+2025-07-21 17:51:54,669 - werkzeug - INFO - 172.31.128.63 - - [21/Jul/2025 17:51:54] "GET / HTTP/1.1" 200 -
+2025-07-21 17:51:55,212 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: de7ad464ff8f657ff3e0f5e2949cb655).
+2025-07-21 17:51:57,215 - __main__ - INFO - Stock Trackr#0840 has connected to Discord!
+2025-07-21 17:51:57,215 - __main__ - INFO - Bot is in 1 guilds
+2025-07-21 18:02:35,504 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 18:03:14,579 - persistence - INFO - Saved 1 tracked stocks
+2025-07-21 18:03:27,835 - persistence - INFO - Saved 0 tracked stocks
+2025-07-21 18:06:46,865 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-21 18:06:46,897 - __main__ - INFO - Starting Stock Bot...
+2025-07-21 18:06:46,901 - web_server - INFO - Starting web server on 0.0.0.0:5000
+2025-07-21 18:06:46,902 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-07-21 18:06:46,902 - discord.client - INFO - logging in using static token
+2025-07-21 18:06:46,910 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.63:5000
+2025-07-21 18:06:46,911 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-21 18:06:47,536 - __main__ - INFO - Synced 7 command(s)
+2025-07-21 18:06:47,536 - __main__ - INFO - Bot setup completed
+2025-07-21 18:06:47,778 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 50803e5b9d4c8a8006c1fc863edb124d).
+2025-07-21 18:06:48,401 - werkzeug - INFO - 172.31.128.63 - - [21/Jul/2025 18:06:48] "GET / HTTP/1.1" 200 -
+2025-07-21 18:06:49,785 - __main__ - INFO - Stock Trackr#0840 has connected to Discord!
+2025-07-21 18:06:49,785 - __main__ - INFO - Bot is in 1 guilds
+2025-07-21 18:06:53,479 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-21 18:06:53,508 - __main__ - INFO - Starting Stock Bot...
+2025-07-21 18:06:53,511 - web_server - INFO - Starting web server on 0.0.0.0:5000
+2025-07-21 18:06:53,512 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-07-21 18:06:53,512 - discord.client - INFO - logging in using static token
+2025-07-21 18:06:53,519 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.63:5000
+2025-07-21 18:06:53,519 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-21 18:06:54,071 - werkzeug - INFO - 172.31.128.63 - - [21/Jul/2025 18:06:54] "GET / HTTP/1.1" 200 -
+2025-07-21 18:07:47,585 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-21 18:07:47,629 - __main__ - INFO - Starting Stock Bot...
+2025-07-21 18:07:47,630 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-07-21 18:07:47,631 - discord.client - INFO - logging in using static token
+2025-07-21 18:07:47,637 - web_server - INFO - Starting web server on 0.0.0.0:5000
+2025-07-21 18:07:47,643 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.63:5000
+2025-07-21 18:07:47,643 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-21 18:07:48,213 - werkzeug - INFO - 172.31.128.63 - - [21/Jul/2025 18:07:48] "GET / HTTP/1.1" 200 -
+2025-07-21 18:07:48,263 - __main__ - INFO - Synced 7 command(s)
+2025-07-21 18:07:48,264 - __main__ - INFO - Bot setup completed
+2025-07-21 18:07:48,354 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 18:07:48] "GET / HTTP/1.1" 200 -
+2025-07-21 18:07:48,483 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 91007f13bf1bcea75746f393330d6353).
+2025-07-21 18:07:50,487 - __main__ - INFO - Stock Trackr#0840 has connected to Discord!
+2025-07-21 18:07:50,487 - __main__ - INFO - Bot is in 1 guilds
+2025-07-21 18:19:09,132 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 18:20:52,911 - persistence - INFO - Saved 1 tracked stocks
+2025-07-21 18:20:53,180 - __main__ - INFO - Created 'Stock Tracking' category in Traders on Top
+2025-07-21 18:20:53,534 - __main__ - INFO - Created channel 'stock-tsla' in Traders on Top
+2025-07-21 18:22:48,339 - yfinance - ERROR - Failed to perform, curl: (16) . See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2025-07-21 18:22:48,339 - stock_data - ERROR - Error fetching yfinance data for TSLA: argument of type 'NoneType' is not iterable
+2025-07-21 18:22:48,418 - stock_data - WARNING - Could not fetch data for TSLA from any source
+2025-07-21 18:28:45,955 - yfinance - ERROR - HTTP Error 404: 
+2025-07-21 18:28:46,754 - yfinance - ERROR - $NETFLIX: possibly delisted; no price data found  (period=2d) (Yahoo error = "No data found, symbol may be delisted")
+2025-07-21 18:28:46,877 - stock_data - WARNING - Could not fetch data for NETFLIX from any source
+2025-07-21 18:31:02,370 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 91007f13bf1bcea75746f393330d6353.
+2025-07-21 18:34:09,514 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-21 18:34:09,550 - __main__ - INFO - Starting Stock Bot...
+2025-07-21 18:34:09,564 - web_server - INFO - Starting web server on 0.0.0.0:5000
+2025-07-21 18:34:09,565 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-07-21 18:34:09,568 - discord.client - INFO - logging in using static token
+2025-07-21 18:34:09,579 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.63:5000
+2025-07-21 18:34:09,579 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-21 18:34:10,191 - __main__ - INFO - Synced 7 command(s)
+2025-07-21 18:34:10,191 - __main__ - INFO - Bot setup completed
+2025-07-21 18:34:10,513 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d687377eeb5e18016142a2e021ac10e8).
+2025-07-21 18:34:11,101 - werkzeug - INFO - 172.31.128.63 - - [21/Jul/2025 18:34:11] "GET / HTTP/1.1" 200 -
+2025-07-21 18:34:12,516 - __main__ - INFO - Stock Trackr#0840 has connected to Discord!
+2025-07-21 18:34:12,516 - __main__ - INFO - Bot is in 1 guilds
+2025-07-21 18:35:53,221 - persistence - INFO - Saved 2 tracked stocks
+2025-07-21 18:35:53,664 - __main__ - INFO - Created channel 'stock-nflx' in Traders on Top
+2025-07-21 18:36:06,457 - persistence - INFO - Saved 3 tracked stocks
+2025-07-21 18:36:06,834 - __main__ - INFO - Created channel 'stock-aapl' in Traders on Top
+2025-07-21 18:40:26,277 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 18:48:18,272 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-21 18:48:18,345 - __main__ - INFO - Starting Stock Bot...
+2025-07-21 18:48:18,346 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-07-21 18:48:18,346 - discord.client - INFO - logging in using static token
+2025-07-21 18:48:18,350 - web_server - INFO - Starting web server on 0.0.0.0:5000
+2025-07-21 18:48:18,361 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.2:5000
+2025-07-21 18:48:18,362 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-21 18:48:18,855 - __main__ - INFO - Synced 7 command(s)
+2025-07-21 18:48:18,855 - __main__ - INFO - Bot setup completed
+2025-07-21 18:48:18,904 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 18:48:18] "GET /ping HTTP/1.1" 200 -
+2025-07-21 18:48:19,097 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: fecbf575b58791499e71ee9cc84f09ad).
+2025-07-21 18:48:19,777 - werkzeug - INFO - 172.31.128.2 - - [21/Jul/2025 18:48:19] "GET / HTTP/1.1" 200 -
+2025-07-21 18:48:21,103 - __main__ - INFO - Stock Trackr#0840 has connected to Discord!
+2025-07-21 18:48:21,103 - __main__ - INFO - Bot is in 1 guilds
+2025-07-21 18:48:24,907 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 18:48:24] "GET /ping HTTP/1.1" 200 -
+2025-07-21 18:48:25,445 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 18:48:25] "GET / HTTP/1.1" 200 -
+2025-07-21 18:48:26,350 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 18:48:26] "GET /health HTTP/1.1" 200 -
+2025-07-21 18:48:35,940 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 18:48:35] "HEAD /ping HTTP/1.1" 200 -
+2025-07-21 18:48:43,125 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 18:48:43] "GET /health HTTP/1.1" 200 -
+2025-07-21 18:48:46,771 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 18:48:46] "GET /ping HTTP/1.1" 200 -
+2025-07-21 18:53:19,043 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-21 18:53:19,110 - __main__ - INFO - Starting Stock Bot...
+2025-07-21 18:53:19,114 - web_server - INFO - Starting web server on 0.0.0.0:5000
+2025-07-21 18:53:19,114 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-07-21 18:53:19,116 - discord.client - INFO - logging in using static token
+2025-07-21 18:53:19,124 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.2:5000
+2025-07-21 18:53:19,124 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-21 18:53:19,746 - werkzeug - INFO - 172.31.128.2 - - [21/Jul/2025 18:53:19] "GET / HTTP/1.1" 200 -
+2025-07-21 18:53:19,795 - __main__ - INFO - Synced 7 command(s)
+2025-07-21 18:53:19,795 - __main__ - INFO - Bot setup completed
+2025-07-21 18:53:20,000 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: b60d44ca190d2dd40fefe86de0654f78).
+2025-07-21 18:53:22,011 - __main__ - INFO - Stock Trackr#0840 has connected to Discord!
+2025-07-21 18:53:22,011 - __main__ - INFO - Bot is in 1 guilds
+2025-07-21 18:56:22,142 - werkzeug - INFO - 172.31.128.2 - - [21/Jul/2025 18:56:22] "GET / HTTP/1.1" 200 -
+2025-07-21 18:56:35,709 - werkzeug - INFO - 172.31.128.2 - - [21/Jul/2025 18:56:35] "GET / HTTP/1.1" 200 -
+2025-07-21 19:01:36,856 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-21 19:01:36,896 - __main__ - INFO - Starting Stock Bot...
+2025-07-21 19:01:36,897 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-07-21 19:01:36,897 - discord.client - INFO - logging in using static token
+2025-07-21 19:01:36,901 - web_server - INFO - Starting web server on 0.0.0.0:5000
+2025-07-21 19:01:36,908 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.2:5000
+2025-07-21 19:01:36,908 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-21 19:01:37,590 - __main__ - INFO - Synced 7 command(s)
+2025-07-21 19:01:37,590 - __main__ - INFO - Bot setup completed
+2025-07-21 19:01:37,934 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 37541a5715b86958a49e3c8f3a3b6ffe).
+2025-07-21 19:01:38,566 - werkzeug - INFO - 172.31.128.2 - - [21/Jul/2025 19:01:38] "GET / HTTP/1.1" 200 -
+2025-07-21 19:01:39,942 - __main__ - INFO - Stock Trackr#0840 has connected to Discord!
+2025-07-21 19:01:39,942 - __main__ - INFO - Bot is in 1 guilds
+2025-07-22 02:43:59,446 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-22 02:45:49,399 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-22 02:46:45,465 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-22 02:47:31,262 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-22 02:47:31,313 - __main__ - INFO - Starting Stock Bot...
+2025-07-22 02:47:31,316 - web_server - INFO - Starting web server on 0.0.0.0:5000
+2025-07-22 02:47:31,316 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-07-22 02:47:31,316 - discord.client - INFO - logging in using static token
+2025-07-22 02:47:32,620 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.3:5000
+2025-07-22 02:47:32,620 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-22 02:47:33,284 - __main__ - INFO - Synced 7 command(s)
+2025-07-22 02:47:33,284 - __main__ - INFO - Bot setup completed
+2025-07-22 02:47:34,489 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 5b5402cdc5580a76215bc7dc0b52bf3b).
+2025-07-22 02:47:36,500 - __main__ - INFO - Stock Trackr#0840 has connected to Discord!
+2025-07-22 02:47:36,500 - __main__ - INFO - Bot is in 1 guilds

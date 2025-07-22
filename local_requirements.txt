@@ -1,0 +1,8 @@
+discord.py>=2.3.0
+yfinance>=0.2.0
+requests>=2.31.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+groq>=0.4.0
+flask>=3.0.0
+python-dotenv>=1.0.0
